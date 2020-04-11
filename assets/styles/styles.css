@@ -47,19 +47,6 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: none;
 }
 
-/*#my-modal {
-	display: none;
-}
-
-.my-form {
-	margin-top: 20em;
-}
-
-.custombox-content {
-	background: #212332;
-}*/
-
-/**********************************/
 
 
 /*** thin bar ***/
@@ -163,15 +150,22 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 }
 
+.experience-topics{
+	width: 25%;
+}
 .experience-topics p {
 	color: #ACAEB2;
 	font-family: "Maven pro", sans-serif;
 	/*font-weight: 500;*/
 }
 
+.experience-topics ul{
+	display: inline-grid;
+}
 .experience-topics ul li {
 	list-style: none;
 	color: #bbd2ff;
+	text-align: left;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 }
@@ -238,30 +232,10 @@ h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 }
 
-/*** teaching ***/
-#teaching {
-	padding: 6em 4em 3em;
-}
-
-#teaching h2 {
-	color: #595959;
-}
-
-#teaching .tag-line {
-	color: #848282;
-	font-size: 1.4em;
-}
-
-#teaching .teaching-domains {
-	height: 500px;
-	width: auto;
-	margin-top: -4em;
-}
-
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: cadetblue;
 	padding: 6em 4em 5.6em;
 }
 
@@ -299,7 +273,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer #logo {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color:cadetblue;
 	border-radius: 50%;
 	color: #fff;
 	padding: .4em;

@@ -1,0 +1,139 @@
+body{
+  background: #fff;
+  width:100%;
+}
+header{
+  background: #fafafafa;
+  border-bottom: 1px solid #ccc;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 20px;
+}
+a{
+  box-sizing: border-box;
+  width:20%;
+  display: inline-block;
+  margin-left: -3px;
+  text-align: center;
+  padding: 9px;
+}
+.fa{
+  color: #111111;
+  font-size: 25px;
+}
+.fa.fa-heart-o:hover{
+  color: red;
+}
+.container{
+  background: #f0f0f0f0;
+  padding-top: 15px;
+  position:absolute;
+  width: 100%;
+  top: 38px;
+  bottom: 0;
+}
+.card{
+  background: #fff;
+  margin: 0 auto;
+  width: 45%;
+  border: 1px solid #ccc
+  border-radius: 2px;
+}
+.card-header{
+  padding: 5px;
+
+}
+.profile-img{
+  display: inline-block;
+  /*background: red;*/
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  top: 3px;
+  margin-left: 5px;
+}
+.profile-img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.profile-info{
+  display: inline-block;
+}
+.name{
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #111;
+  font-weight: 700;
+}
+.location{
+  display: inline-block;
+  font-size: 12px;
+  color: #111;
+}
+.time{
+  font-family: sans-serif;
+  font-size: 10px;
+  float: right;
+  display: inline-block;
+  top: 10px;
+  position: relative;
+}
+.content img{
+    width: 100%;
+    height: 65vh;
+  }
+.card-footer{
+  padding: 2px;
+  box-sizing: border-box;
+}
+.likes{
+  color: #111111;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+p{
+  font-size: 14px;
+  margin: 0 auto;
+}
+.username{
+  font-family: sans-serif;
+  font-weight: 700;
+}
+hr{
+  padding: 0px;
+}
+form{
+  padding-top:15px;
+}
+.heart{
+  display: inline-block;
+  width: 7%;
+}
+.heart.fa{
+  font-size: 24px;
+  position: relative;
+  top:3px;
+}
+.add-comment{
+  display:inline-block;
+  width: 80%;
+}
+.add-comment input{
+  width: 100%;
+  padding: 5px;
+  font-weight: 30px;
+  border: :2px solid #fff;
+}
+.options{
+  display: inline-block;
+  width: 7%;
+  float: right;
+}
+.options.fa{
+  position: relative;
+  top: 3px;
+}
